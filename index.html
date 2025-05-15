@@ -1,67 +1,97 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jo Jacquard LLC</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
-    }
-    header {
-      background-color: #003366;
-      color: white;
-      padding: 30px 20px;
-      text-align: center;
-    }
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    h1, h2 {
-      color: #003366;
-    }
-    .contact {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
-    }
-    footer {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 50px;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f4f8fc; color: #222; }
+    header, footer { background: #0077b6; color: white; text-align: center; padding: 30px 20px; }
+    .section-container { display: flex; flex-wrap: wrap; justify-content: center; background: #fff; }
+    .section { flex: 1 1 300px; margin: 10px; background-size: cover; background-position: center; color: white; padding: 40px 20px; border-radius: 12px; min-height: 240px; position: relative; overflow: hidden; }
+    .overlay { background: rgba(0, 0, 0, 0.5); position: absolute; inset: 0; z-index: 0; }
+    .section-content { position: relative; z-index: 1; }
+    h2 { margin-bottom: 15px; color: #fff; }
+    .contact { text-align: center; padding: 40px 20px; background: #caf0f8; }
+    .map { background: #e0f7fa; padding: 20px; text-align: center; }
+    a { color: #03045e; text-decoration: none; }
+    footer p { margin-top: 10px; font-size: 14px; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
-  </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
+<header>
+  <h1>Jo Jacquard LLC</h1>
+  <p>Smart Management & Business Strategy Experts</p>
+</header>
 
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
+<div class="section-container">
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1508923567004-3a6b8004f3d3');">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h2>About Us</h2>
+      <p>Jo Jacquard LLC provides tailored strategies for sustainable business development based in Raleigh, NC.</p>
     </div>
-  </section>
+  </div>
 
-  <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
-  </footer>
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1581090700227-1e8e5d31053d');">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h2>Our Services</h2>
+      <p>We offer business planning, corporate filings, compliance monitoring, and executive advisory services.</p>
+    </div>
+  </div>
+
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1581093588401-59d8825b49d4');">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h2>Our Team</h2>
+      <p>Led by Johanna Ebenhag, our professionals bring expertise, trust, and precision to every project.</p>
+    </div>
+  </div>
+
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1591696331115-3b1cfa2e1f53');">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h2>Clients</h2>
+      <p>We work with startups, corporate clients, and strategic partners across North Carolina and beyond.</p>
+    </div>
+  </div>
+
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1612832021079-71f0b1fc203e');">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h2>Testimonials</h2>
+      <p>"Professional, dependable, and insightful. Jo Jacquard helped transform our operations."</p>
+    </div>
+  </div>
+
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1522075469751-3a6694fb2f61');">
+    <div class="overlay"></div>
+    <div class="section-content">
+      <h2>Our Vision</h2>
+      <p>To empower businesses with smart solutions and trusted leadership from the ground up.</p>
+    </div>
+  </div>
+</div>
+
+<div class="map">
+  <h2>Our Location</h2>
+  <p><strong>Neighborhood:</strong> North Raleigh</p>
+  <p><strong>City:</strong> Raleigh, NC</p>
+</div>
+
+<div class="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Email:</strong> <a href="mailto:admin@jojacquardsrv.shop">admin@jojacquardsrv.shop</a></p>
+  <p><strong>Phone:</strong> <a href="tel:+16316415390">631-641-5390</a></p>
+</div>
+
+<footer>
+  <strong>&copy; 2025 Jo Jacquard LLC</strong>
+  <p>All rights reserved. Built with care and clarity.</p>
+</footer>
+
 </body>
 </html>
