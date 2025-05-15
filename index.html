@@ -9,14 +9,31 @@
     body { font-family: Arial, sans-serif; background: #f4f8fc; color: #222; }
     header, footer { background: #0077b6; color: white; text-align: center; padding: 30px 20px; }
     .section-container { display: flex; flex-wrap: wrap; justify-content: center; background: #fff; }
-    .section { flex: 1 1 300px; margin: 10px; background-size: cover; background-position: center; color: white; padding: 40px 20px; border-radius: 12px; min-height: 240px; position: relative; overflow: hidden; }
-    .overlay { background: rgba(0, 0, 0, 0.5); position: absolute; inset: 0; z-index: 0; }
+    .section {
+      flex: 1 1 300px;
+      margin: 10px;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 40px 20px;
+      border-radius: 12px;
+      min-height: 240px;
+      position: relative;
+      overflow: hidden;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
     .section-content { position: relative; z-index: 1; }
     h2 { margin-bottom: 15px; color: #fff; }
     .contact { text-align: center; padding: 40px 20px; background: #caf0f8; }
-    .map { background: #e0f7fa; padding: 20px; text-align: center; }
+    .map { background: #e0f7fa; padding: 40px 20px; text-align: center; }
     a { color: #03045e; text-decoration: none; }
     footer p { margin-top: 10px; font-size: 14px; }
+    iframe { border-radius: 8px; }
   </style>
 </head>
 <body>
@@ -51,7 +68,7 @@
     </div>
   </div>
 
-  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1591696331115-3b1cfa2e1f53');">
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1573166364524-08b5d25c4f83');">
     <div class="overlay"></div>
     <div class="section-content">
       <h2>Clients</h2>
@@ -59,7 +76,7 @@
     </div>
   </div>
 
-  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1612832021079-71f0b1fc203e');">
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4');">
     <div class="overlay"></div>
     <div class="section-content">
       <h2>Testimonials</h2>
@@ -67,7 +84,7 @@
     </div>
   </div>
 
-  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1522075469751-3a6694fb2f61');">
+  <div class="section" style="background-image: url('https://images.unsplash.com/photo-1603575448361-2332fca8c6c8');">
     <div class="overlay"></div>
     <div class="section-content">
       <h2>Our Vision</h2>
@@ -78,8 +95,10 @@
 
 <div class="map">
   <h2>Our Location</h2>
-  <p><strong>Neighborhood:</strong> North Raleigh</p>
-  <p><strong>City:</strong> Raleigh, NC</p>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.248915193404!2d-78.64974168475468!3d35.894569580142266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac5f10e2bbf9e7%3A0x695acb05966e5f0a!2sNorth%20Raleigh%2C%20Raleigh%2C%20NC!5e0!3m2!1sen!2sus!4v1683058123456!5m2!1sen!2sus"
+    width="100%" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
 </div>
 
 <div class="contact">
